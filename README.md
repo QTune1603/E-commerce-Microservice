@@ -127,13 +127,6 @@ Detailed documentation available in `/docs` directory:
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Team
-- John Doe - Backend Developer
-- Jane Smith - Frontend Developer
-- Bob Johnson - DevOps Engineer
 
 ## 📧 Contact
 QiTune1603 - tungonlytop1@gmail.com
