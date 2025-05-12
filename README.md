@@ -48,23 +48,24 @@ cd MicroMarket
 
 2. **Install Dependencies**
 ```bash
-# API Gateway
-cd api-gateway && npm install
-
+Following this step: service 1,2,3 => api gateway => admin => client
 # Service-1
-cd ../Service-1 && npm install
+cd ../Service-1 && npm i && npm install
 
 # Service-2
-cd ../Service-2 && npm install
+cd ../Service-2 && npm i && npm start
 
 # Service-3
-cd ../Service-3 && npm install
+cd ../Service-3 && npm i && npm start
+
+# API Gateway
+cd api-gateway && npm i &&  npm start
 
 # Admin Dashboard
-cd ../MicroMarket-Admin && npm install
+cd ../MicroMarket-Admin && npm  install --legacy-peer-deps && npm start
 
 # Client Application
-cd ../MicroMarket-Client && npm install
+cd ../MicroMarket-Client && npm  install --legacy-peer-deps && npm start
 ```
 
 3. **Environment Configuration**
